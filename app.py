@@ -3,7 +3,7 @@ import plotly.graph_objects as go  # Importación de plotly.graph_objects como g
 import streamlit as st
 
 # Leer los datos del archivo CSV
-car_data = pd.read_csv(r'E:\Educacion\Data science\TripleTen\sprint_7\project_7\project_sprint_7\vehicles_us.csv')
+car_data = pd.read_csv('notebooks/vehicles_us.csv')
 
 
 st.header("Análisis Exploratorio de Datos de Vehículos en EE.UU.")
