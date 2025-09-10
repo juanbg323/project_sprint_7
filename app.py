@@ -6,7 +6,7 @@ import streamlit as st
 car_data = pd.read_csv(r'E:\Educacion\Data science\TripleTen\sprint_7\project_7\project_sprint_7\vehicles_us.csv')
 
 
-st header("Análisis Exploratorio de Datos de Vehículos en EE.UU.")
+st.header("Análisis Exploratorio de Datos de Vehículos en EE.UU.")
 
 build_histogram = st.checkbox("Mostrar Histograma de distribucion de odometros")
 build_scatter = st.checkbox("Mostrar Scatter plot de odometro vs precio")
